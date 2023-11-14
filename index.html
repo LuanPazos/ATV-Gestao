@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Bem-vindo (a)</h2>
+        <form id="login-form">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <div class="botoes">
+              <button type="button" class="entrar" onclick="validateLogin()">Entrar</button>
+              <button type="button" class="esqueci">Esqueci minha senha</button>
+            </div>
+        </form>
+        <p id="error-message"></p>
+    </div>
+    <footer>
+      <p>Desenvolvido por <a href="https://github.com/LuanPazos">Luan Carlos Machado</a> Versão 1.0</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
