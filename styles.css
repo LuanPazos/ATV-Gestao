@@ -31,13 +31,12 @@ label {
 
 input {
   width: 100%;
-  padding: 8px;
+  padding: 8px 0 8px .5rem;
   margin-bottom: 16px;
-  margin-right: 9px;
+  margin-right: 10px;
   background-color: hsla(hue, saturation, lightness, alpha);
   border-radius: 10px;
   border: 1px solid hsla(0, 0%, 80%, 0.13);
-  padding-left: 0px;
 }
 
 .entrar {
