@@ -9,7 +9,7 @@ function validateLogin() {
       errorMessage.style.color = "green";
 
       // Redirecionar para o site desejado
-      window.location.href = "http://aulaqa.000webhostapp.com/";
+      window.location.href = "main.html";
   } else {
       errorMessage.innerHTML = "Usuário ou senha incorretos. Tente novamente.";
       errorMessage.style.color = "red";
